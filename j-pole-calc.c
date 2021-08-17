@@ -55,7 +55,7 @@ void jpole_calc(float *f, float *unit_factor, float *lambda, float *l1, float *l
 void jpole_print(float *f, float *unit_factor, float *lambda, float *l1, float *l2, float *l3, float *l4, float *raddiam, int *unit_index){
 	printf(" Calculated for %f mHz\n", *f);
         printf("\n");
-	printf("         Radiator Diam. is %f mm\n", *raddiam);
+	printf("         Radiator Diam. is %f ", *raddiam); printunit(&*unit_index);
 	printf("\n");
 	printf("\n");
 	printf("         [   ||\n");
