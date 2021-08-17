@@ -100,13 +100,9 @@ int main() {
 
     jpole_print(&f ,&unit_factor, &lambda, &l1, &l2, &l3, &l4, &raddiam, &unit_index);
 
-
-   	//printf("Calculating for %f MHz\n", f);
-
-	printf("\n");
-	printf("\n");
-
-	printf("                             73! \n");
-	printf("\n");
-	return 0;
+    printf("\n");
+    printf("\n");
+    printf("                             73! \n");
+    printf("\n");
+    return 0;
 }
